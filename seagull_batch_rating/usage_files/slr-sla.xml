@@ -1,0 +1,82 @@
+<!--
+
+  This program is free software; you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation; either version 2 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program; if not, write to the Free Software
+  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+ (c)Copyright 2006 Hewlett-Packard Development Company, LP.
+
+-->
+
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<scenario>
+
+	<init>
+  <send channel="channel-1">
+    <command name="CER">
+      <avp name="Origin-Host" value="ece.example.com"> </avp>
+      <avp name="Origin-Realm" value="example.com"> </avp>
+      <avp name="Host-IP-Address" value="0x00010a03fc5e"> </avp> <!-- IPV4 10.3.252.94-->
+      <avp name="Vendor-Id" value="11"> </avp>
+      <avp name="Product-Name" value="HP Cx Interface"> </avp>
+      <avp name="Origin-State-Id" value="1094807040"> </avp>
+      <avp name="Supported-Vendor-Id" value="10415"> </avp>
+      <avp name="Auth-Application-Id" value="4"> </avp>
+      <avp name="Acct-Application-Id" value="0"> </avp>
+      <avp name="Firmware-Revision" value="1"> </avp>
+    </command>
+  </send>
+  
+  <receive channel="channel-1">
+    <command name="CEA">
+    </command>
+  </receive>
+</init>
+
+
+<!-- Traffic -->
+<traffic>
+<send channel="channel-1">
+	<action>
+        	<restore-from-external field="0" entity="Session-Id"></restore-from-external>
+      	</action>
+
+<command name="SLR">
+	<avp name="Session-Id" value="sp20100_01"> </avp>
+	<avp name="SL-Request-Type" value="0"></avp>
+	<!--avp name="Policy-Counter-Identifier" value="MB"></avp--><!--DIAMETER_ERROR_UNKNOWN_POLICY_COUNTERS-->
+	<avp name="Destination-Realm" value="www.oracle.com"> </avp>
+	<avp name="Auth-Application-Id" value="16777302"> </avp>
+	<avp name="Origin-Host" value="ece.example.com"> </avp>
+	<avp name="Destination-Host" value="100.76.203.140:3868"> </avp>
+	<!--avp name="Destination-Realm" value="ims.mnc040.mcc621.3gppnetwork.org"> </avp-->	
+	<avp name="Origin-Realm" value="www.oracle.com"> </avp>
+	<avp name="Origin-State-Id" value="99"> </avp>
+	<avp name="Subscription-Id">
+        	<avp name="Subscription-Id-Type" value="0"></avp>
+        	<avp name="Subscription-Id-Data" value="MSISDN"></avp>        
+    	</avp>
+	<!--avp name="Event-Timestamp" value="0xe5339dd0"> </avp-->
+	
+	  
+</command>
+</send>
+
+		<receive channel="channel-1">
+			<command name="SLA">
+			</command>
+		</receive>
+
+</traffic> 
+
+</scenario>

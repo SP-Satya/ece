@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<scenario>
+    <init>
+        <send channel="channel-1">
+            <command name="CER">
+                <avp name="Origin-Host" value="ece.example.com"></avp>
+                <avp name="Origin-Realm" value="example.com"></avp>
+                <avp name="Host-IP-Address" value="0x00010a03fc5e"></avp>
+                <!-- IPV4 10.3.252.94-->
+                <avp name="Vendor-Id" value="11"></avp>
+                <avp name="Product-Name" value="HP Cx Interface"></avp>
+                <avp name="Origin-State-Id" value="1094807040"></avp>
+                <avp name="Supported-Vendor-Id" value="10415"></avp>
+                <avp name="Auth-Application-Id" value="4"></avp>
+                <avp name="Acct-Application-Id" value="0"></avp>
+                <avp name="Firmware-Revision" value="1"></avp>
+            </command>
+        </send>
+        <receive channel="channel-1">
+            <command name="CEA"></command>
+        </receive>
+    </init>
+    <!-- Traffic -->
+    <traffic>
+
+	    <send channel="channel-1">
+		                   <action>
+        <restore-from-external field="0" entity="Session-Id"></restore-from-external>
+      </action>
+            <command name="CCR">
+                <avp name="Session-Id" value="MMS_test_001"></avp>
+                <avp name="Destination-Realm" value="www.oracle.com"></avp> <!-- THIS VALUE WAS UPDATED TO USE www.oracle.com instead www.huawei.com -->
+                <avp name="Destination-Host" value="cbp507"></avp>
+                <avp name="Origin-Host" value="mmsc.zte.com"></avp>
+                <avp name="Origin-Realm" value="zte.com"></avp>
+                <avp name="Auth-Application-Id" value="4"></avp>
+                <avp name="Service-Context-Id" value="mms1@mbalance.com"></avp>
+                <avp name="CC-Request-Type" value="0x00000004"></avp>
+                <avp name="CC-Request-Number" value="0"></avp>
+                <!-- THIS VALUE APPEARS IN DS.140 BUT NOT IN TRACE PROVIDED BY DIGI <avp name="User-Name" value="TBD"></avp> -->
+                <!-- THIS VALUE APPEARS IN DS.140 BUT NOT IN TRACE PROVIDED BY DIGI <avp name="CC-Sub-Session-Id" value="TBD"></avp> -->
+                <!-- THIS VALUE APPEARS IN DS.140 BUT NOT IN TRACE PROVIDED BY DIGI <avp name="Acct-Multi-Session-Id" value="TBD"></avp> -->
+                <!-- THIS VALUE APPEARS IN DS.140 BUT NOT IN TRACE PROVIDED BY DIGI <avp name="Origin-State-Id" value="TBD"></avp> -->
+                <avp name="Event-Timestamp" value="TIMESTAMP"></avp>
+                <avp name="Subscription-Id">
+                    <avp name="Subscription-Id-Type" value="0"></avp>
+                    <avp name="Subscription-Id-Data" value="MSISDN"></avp>
+                </avp>
+
+                <!-- THIS VALUE APPEARS IN DS.140 BUT NOT IN TRACE PROVIDED BY DIGI <avp name="Termination-Cause" value="TBD"></avp> -->
+                <avp name="Requested-Action" value="0"></avp>
+
+                <!-- THIS VALUE APPEARS IN DS.140 BUT NOT IN TRACE PROVIDED BY DIGI 
+                <avp name="Multiple-Services-Credit-Control">
+                        <avp name="Requested-Service-Unit">
+                                <avp name="CC-Time" value="60"></avp>
+                                <avp name="CC-Money">
+                                    <avp name="Unit-Value">
+                                      <avp name="Value-Digits" value="TBD"></avp>
+                                      <avp name="Exponent" value="TBD"></avp>
+                                    </avp>
+                                    <avp name="Currency-Code" value="TBD"></avp>
+                                </avp>
+                                <avp name="CC-Total-Octets" value="TBD"></avp>
+                                <avp name="CC-Input-Octets" value="TBD"></avp>
+                                <avp name="CC-Output-Octets" value="TBD"></avp>
+                                <avp name="CC-Service-Specific-Units" value="TBD">
+                        </avp>
+                        <avp name="Used-Service-Unit">
+                                <avp name="Tariff-Change-Usage" value="TBD"></avp>
+                                <avp name="CC-Time" value="TBD"></avp>
+                                <avp name="CC-Money">
+                                    <avp name="Unit-Value">
+                                      <avp name="Value-Digits" value="TBD"></avp>
+                                      <avp name="Exponent" value="TBD"></avp>
+                                    </avp>
+                                    <avp name="Currency-Code" value="TBD"></avp>
+                                </avp>
+                                <avp name="CC-Total-Octets" value="TBD"></avp>
+                                <avp name="CC-Input-Octets" value="TBD"></avp>
+                                <avp name="CC-Output-Octets" value="TBD"></avp>
+                                <avp name="CC-Service-Specific-Units" value="TBD">
+                        </avp>                        
+                        <avp name="Service-Identifier" value="TBD"></avp>
+                        <avp name="Rating-Group" value="TBD"></avp>
+                </avp>-->
+
+                
+                <avp name="Service-Information">
+                    <avp name="PS-Information">
+                        <!-- THIS VALUE APPEARS IN DS.140 BUT NOT IN TRACE PROVIDED BY DIGI <avp name="SGSN-Address" value="TBD"></avp> -->
+			<!-- <avp name="3GPP-User-Location-Info" value="8205f261a90705f26101"></avp>  PENDING TO REVIEW VALUE FROM WIRESHARK "8205f261a90705f26101" 0x0027f420c4d713b7 -->
+		<!--	<avp name="3GPP-User-Location-Info" value="0x8105F261006FCD66"></avp> -->
+			<avp name="3GPP-User-Location-Info" value="0x8205F261A87105F26100744b65"></avp>
+                        <!-- PENDING TO ADD MORE FIELDS BASED ON WIRESHARK MALFORMED AVPS <avp name="Cell-Global-Identity" value="0x05F261521E7450"></avp>-->
+                        <!-- <avp name="Called-Station-Id" value="601116381550"></avp>   NEED TO REVIEWED FROM WHICH AVP WILL BE TAKEN THE VALUE -->
+                    </avp>
+                    <avp name="MMS-Information">
+                        <avp name="Originator-Address">
+                            <avp name="Address-Type" value="1"></avp>
+                            <avp name="Address-Data" value="MSISDN"></avp>
+                            <avp name="Address-Domain">
+                                <!-- THIS VALUE APPEARS IN DS.140 BUT NOT IN TRACE PROVIDED BY DIGI <avp name="Domain-Name" value="TBD"></avp> -->
+                                <avp name="3GPP-IMSI-MCC-MNC" value="502162056966825"></avp>
+                            </avp>
+                        </avp>
+                        <avp name="Recipient-Address">
+                            <avp name="Address-Type" value="1"></avp>
+                            <avp name="Address-Data" value="DESTINATION"></avp>
+                            <avp name="Address-Domain">
+                                <!-- THIS VALUE APPEARS IN DS.140 BUT NOT IN TRACE PROVIDED BY DIGI <avp name="Domain-Name" value="TBD"></avp> -->
+                                <avp name="3GPP-IMSI-MCC-MNC" value="502162057239990"></avp>
+                            </avp>
+                            <!-- THIS VALUE APPEARS IN DS.140 BUT NOT IN TRACE PROVIDED BY DIGI <avp name="Addressee-Type" value="TBD"></avp> -->
+                        </avp>
+                        <!-- THIS VALUE APPEARS IN DS.140 BUT NOT IN TRACE PROVIDED BY DIGI <avp name="Submission-Time" value="TBD"></avp> -->
+                        <avp name="MM-Content-Type">
+                            <avp name="Type-Number" value="16"></avp>
+                            <!-- THIS VALUE APPEARS IN DS.140 BUT NOT IN TRACE PROVIDED BY DIGI <avp name="Additional-Type-Information" value="TBD"></avp> -->
+                            <!-- THIS VALUE APPEARS IN DS.140 BUT NOT IN TRACE PROVIDED BY DIGI <avp name="Content-Size" value="TBD"></avp> -->
+                            <!-- THIS VALUE APPEARS IN DS.140 BUT NOT IN TRACE PROVIDED BY DIGI <avp name="Additional-Content-Information" value="TBD"></avp> -->
+                        </avp>
+                        <avp name="Priority" value="1"></avp>
+                        <avp name="Message-ID" value="021516354810000000185"></avp>
+                        <avp name="Message-Type" value="1"></avp>
+                        <avp name="Message-Size" value="351"></avp>
+                        <!-- THIS VALUE APPEARS IN DS.140 BUT NOT IN TRACE PROVIDED BY DIGI 
+                        <avp name="Message-Class">
+                            <avp name="Class-Identifier" value="TBD"></avp>
+                            <avp name="Token-Text" value="TBD"></avp>
+                        </avp> -->
+                        <!-- THIS VALUE APPEARS IN DS.140 BUT NOT IN TRACE PROVIDED BY DIGI <avp name="Delivery-Report-Requested" value="TBD"></avp>-->
+                        <!-- THIS VALUE APPEARS IN DS.140 BUT NOT IN TRACE PROVIDED BY DIGI <avp name="Read-Reply-Report-Request" value="TBD"></avp>-->
+                        <!-- THIS VALUE APPEARS IN DS.140 BUT NOT IN TRACE PROVIDED BY DIGI <avp name="MMBox-Storage-Requested" value="TBD"></avp>-->
+                        <!-- THIS VALUE APPEARS IN DS.140 BUT NOT IN TRACE PROVIDED BY DIGI <avp name="Applic-ID" value="TBD"></avp>-->
+                        <!-- THIS VALUE APPEARS IN DS.140 BUT NOT IN TRACE PROVIDED BY DIGI <avp name="Reply-Applic-ID" value="TBD"></avp>-->
+                        <!-- THIS VALUE APPEARS IN DS.140 BUT NOT IN TRACE PROVIDED BY DIGI <avp name="Aux-Applic-Info" value="TBD"></avp>-->
+                        <!-- THIS VALUE APPEARS IN DS.140 BUT NOT IN TRACE PROVIDED BY DIGI <avp name="Content-Class" value="TBD"></avp>-->
+                        <!-- THIS VALUE APPEARS IN DS.140 BUT NOT IN TRACE PROVIDED BY DIGI <avp name="DMR-Content" value="TBD"></avp>-->
+                        <avp name="Adaptations" value="0"></avp>
+                        <avp name="VASP-Id" value="MM7:E1063"></avp>
+                        <avp name="VAS-Id" value="7"></avp>
+                        <!-- THIS VALUE APPEARS IN DS.140 BUT NOT IN TRACE PROVIDED BY DIGI 
+                        <avp name="Service-Parameter-Info">
+                            <avp name="Service-Parameter-Type" value="TBD"></avp>
+                            <avp name="Service-Parameter-Value" value="TBD"></avp>
+                        </avp> -->
+                        <!-- THIS VALUE APPEARS IN DS.140 BUT NOT IN TRACE PROVIDED BY DIGI <avp name="CC-Correlation-Id" value="TBD"></avp>-->
+                        <!-- THIS VALUE APPEARS IN DS.140 BUT NOT IN TRACE PROVIDED BY DIGI 
+                        <avp name="User-Equipment-Info">
+                            <avp name="User-Equipment-Info-Type" value="TBD"></avp>
+                            <avp name="User-Equipment-Info-Value" value="TBD"></avp>
+                        </avp> -->
+                        <!-- THIS VALUE APPEARS IN DS.140 BUT NOT IN TRACE PROVIDED BY DIGI 
+                        <avp name="Proxy-Info">
+                            <avp name="Proxy-Host" value="TBD"></avp>
+                            <avp name="Proxy-State" value="TBD"></avp>
+                        </avp> -->
+                        <!-- THIS VALUE APPEARS IN DS.140 BUT NOT IN TRACE PROVIDED BY DIGI <avp name="Route-Record" value="TBD"></avp>-->
+                    </avp>
+                </avp>
+            </command>
+        </send>
+        <receive channel="channel-1">
+            <command name="CCA">
+               <avp name="Result-Code" value="2001"></avp>
+            </command>
+            <action>
+              <check-value name="Result-Code" behaviour="error"></check-value>
+           </action>
+        </receive>
+    </traffic>
+</scenario>
+
+

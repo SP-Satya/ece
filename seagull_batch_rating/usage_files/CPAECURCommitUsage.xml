@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<scenario>
+    <init>
+        <send channel="channel-1">
+            <command name="CER">
+                <avp name="Origin-Host" value="ece.example.com"></avp>
+                <avp name="Origin-Realm" value="example.com"></avp>
+                <!--avp name="Host-IP-Address" value="0x644ccb8c"></avp-->
+                <avp name="Host-IP-Address" value="0x00010a03fc5e"></avp>
+                <!-- IPV4 100.76.203.140 0x644ccb8c-->
+                <avp name="Vendor-Id" value="11"></avp>
+                <avp name="Product-Name" value="HP Cx Interface"></avp>
+                <avp name="Origin-State-Id" value="1094807040"></avp>
+                <avp name="Supported-Vendor-Id" value="10415"></avp>
+                <avp name="Auth-Application-Id" value="4"></avp>
+                <avp name="Acct-Application-Id" value="0"></avp>
+                <avp name="Firmware-Revision" value="1"></avp>
+            </command>
+        </send>
+        <receive channel="channel-1">
+            <command name="CEA"></command>
+        </receive>
+    </init>
+    <!-- Traffic -->
+    <traffic>
+        <!--INITIATE-->
+    <send channel="channel-1">
+              <action>
+        <restore-from-external field="0" entity="Session-Id"></restore-from-external>
+	<restore-from-external field="1" entity="MessageID"></restore-from-external>
+      </action>
+            <command name="CCR">
+                <avp name="Session-Id" value="CPA_005"></avp>
+                <avp name="Origin-Host" value="ece.example.com"></avp>
+                <avp name="Origin-Realm" value="example.com"></avp>
+                <avp name="Destination-Host" value="oc3c.example.com"></avp>
+                <avp name="Destination-Realm" value="www.oracle.com"></avp>
+                <avp name="Auth-Application-Id" value="4"></avp>
+                <avp name="Service-Context-Id" value="CPA@digi.com.my"></avp>
+                <avp name="CC-Request-Type" value="0x00000001"></avp>
+                <avp name="CC-Request-Number" value="0"></avp>
+                <avp name="Route-Record" value="host1.com"></avp>
+                <avp name="Event-Timestamp" value="TIMESTAMP"></avp>
+                <avp name="Subscription-Id">
+                    <avp name="Subscription-Id-Type" value="0"></avp>
+                    <avp name="Subscription-Id-Data" value="MSISDN"></avp>
+                </avp>
+
+                <avp name="Service-Information">
+                    <avp name="Content-Information">
+                        <avp name="MessageID" value="6278766352"></avp>
+                        <avp name="CPID" value="17479"></avp>
+                        <avp name="ServiceID" value="DG_UNPN_DOB"></avp>
+                        <avp name="ServiceType" value="SERVICE_TYPE"></avp>
+                        <avp name="ContentType" value="UNI-Mobile Legends: Bang Bang"></avp>
+                       <avp name="ChargeMode" value="1"></avp>
+                        <avp name="PromotionID" value="99999"></avp>
+                        <avp name="Media-Type" value="SMS20000"></avp>
+                        <avp name="TransType" value="MT"></avp>
+                       <avp name="Total-Volume-Usage" value="1"></avp>
+
+                        <avp name="OldMessageID" value="1263"></avp>
+                        <avp name="Transaction-Id" value="1234"></avp>
+                    </avp>
+                </avp>
+                
+                <avp name="Requested-Service-Unit">
+                    <avp name="CC-Money">
+                      <avp name="Unit-Value">
+                        <avp name="Value-Digits" value="CPA_AMOUNT"></avp>
+                        <avp name="Exponent" value="0"></avp>
+                      </avp>
+                      <avp name="Currency-Code" value="458"></avp>
+                    </avp>
+                </avp>                
+
+            </command>
+        </send>
+        <receive channel="channel-1">
+            <command name="CCA">
+               <avp name="Result-Code" value="2001"></avp>
+            </command>
+            <action>
+              <check-value name="Result-Code" behaviour="error"></check-value>
+           </action>
+        </receive>
+        <!--TERMINATE-->
+    <send channel="channel-1">
+              <action>
+        <restore-from-external field="0" entity="Session-Id"></restore-from-external>
+	<restore-from-external field="1" entity="MessageID"></restore-from-external>
+      </action>
+            <command name="CCR">
+                <avp name="Session-Id" value="CPA__005"></avp>
+                <avp name="Origin-Host" value="ece.example.com"></avp>
+                <avp name="Origin-Realm" value="example.com"></avp>
+                <avp name="Destination-Host" value="oc3c.example.com"></avp>
+                <avp name="Destination-Realm" value="www.oracle.com"></avp>
+                <avp name="Auth-Application-Id" value="4"></avp>
+                <avp name="Service-Context-Id" value="CPA@digi.com.my"></avp>
+                <avp name="CC-Request-Type" value="0x00000003"></avp>
+                <avp name="CC-Request-Number" value="1"></avp>
+                <avp name="Route-Record" value="host1.com"></avp>
+                <avp name="Event-Timestamp" value="TIMESTAMP"></avp>
+                <avp name="Subscription-Id">
+                    <avp name="Subscription-Id-Type" value="0"></avp>
+                    <avp name="Subscription-Id-Data" value="MSISDN"></avp>
+                </avp>
+
+
+                <avp name="Service-Information">
+                    <avp name="Content-Information">
+                        <avp name="MessageID" value="6278766352"></avp>
+                        <avp name="CPID" value="17479"></avp>
+                        <avp name="ServiceID" value="DG_UNPN_DOB"></avp>
+                        <avp name="ServiceType" value="SERVICE_TYPE"></avp>
+                        <avp name="ContentType" value="UNI-Mobile Legends: Bang Bang"></avp>
+                       <avp name="ChargeMode" value="1"></avp>
+                        <avp name="PromotionID" value="99999"></avp>
+                        <avp name="Media-Type" value="SMS20000"></avp>
+                        <avp name="TransType" value="MT"></avp>
+                       <avp name="Total-Volume-Usage" value="1"></avp>
+
+                        <avp name="OldMessageID" value="1263"></avp>
+                       <avp name="Charge-Confirmflag" value="1"></avp>
+                        <avp name="Transaction-Id" value="1234"></avp>
+                    </avp>
+                </avp>
+
+                <avp name="Used-Service-Unit">
+                    <avp name="CC-Money">
+                      <avp name="Unit-Value">
+                        <avp name="Value-Digits" value="CPA_AMOUNT"></avp>
+                        <avp name="Exponent" value="0"></avp>
+                      </avp>
+                      <avp name="Currency-Code" value="458"></avp>
+                    </avp>
+                </avp>                  
+            </command>
+        </send>
+        <receive channel="channel-1">
+            <command name="CCA">
+               <avp name="Result-Code" value="2001"></avp>
+            </command>
+            <action>
+              <check-value name="Result-Code" behaviour="error"></check-value>
+           </action>
+        </receive>
+    </traffic>
+</scenario>

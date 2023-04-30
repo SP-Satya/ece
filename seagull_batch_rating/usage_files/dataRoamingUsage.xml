@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<scenario>
+	<init>
+  <send channel="channel-1">
+    <command name="CER">
+      <avp name="Origin-Host" value="ece.example.com"> </avp>
+      <avp name="Origin-Realm" value="example.com"> </avp>
+      <avp name="Host-IP-Address" value="0x00010a03fc5e"> </avp> <!-- IPV4 10.3.252.94-->
+      <avp name="Vendor-Id" value="11"> </avp>
+      <avp name="Product-Name" value="HP Cx Interface"> </avp>
+      <avp name="Origin-State-Id" value="1094807040"> </avp>
+      <avp name="Supported-Vendor-Id" value="10415"> </avp>
+      <avp name="Auth-Application-Id" value="4"> </avp>
+      <avp name="Acct-Application-Id" value="0"> </avp>
+      <avp name="Firmware-Revision" value="1"> </avp>
+    </command>
+  </send>
+  
+  <receive channel="channel-1">
+    <command name="CEA">
+    </command>
+  </receive>
+</init>
+
+	<!-- Traffic -->
+	<traffic>
+
+		<!--INITIATE-->
+		<send channel="channel-1">
+		    <action>
+        			<restore-from-external field="0" entity="Session-Id"></restore-from-external>
+      		</action>
+			<command name="CCR">
+				<avp name="Session-Id" value="test_110003"> </avp>
+				<avp name="Origin-Host" value="ece.example.com"> </avp>
+				<avp name="Origin-Realm" value="zte.com"> </avp>
+				<avp name="Destination-Realm" value="www.oracle.com"> </avp>
+				<!-- Added -->
+				<avp name="Auth-Application-Id" value="4"> </avp>
+				<avp name="CC-Request-Type" value="0x00000001"> </avp>
+				<avp name="CC-Request-Number" value="1"> </avp>
+				<avp name="Service-Context-Id" value="6.32251@3gpp.org"> </avp>
+				<avp name="Destination-Host" value="DCCProxy519"> </avp>
+				<avp name="Subscription-Id">
+					<avp name="Subscription-Id-Type" value="0"> </avp>
+					<avp name="Subscription-Id-Data" value="MSISDN"> </avp>
+				</avp>
+				<avp name="Event-Timestamp" value="TIMESTAMP"> </avp>
+				<avp name="Origin-State-Id" value="315360000"> </avp>
+				<avp name="Multiple-Services-Indicator" value="1"> </avp>
+				
+				<avp name="User-Equipment-Info">
+					<avp name="User-Equipment-Info-Type" value="0"></avp>
+					<avp name="User-Equipment-Info-Value" value="3557580810545701"></avp>		
+				</avp>
+				<avp name="Service-Information">
+					<avp name="PS-Information">
+						<avp name="SGSN-Address" value="0x000159098107"></avp>			
+						<avp name="GGSN-Address" value="0x000159098107"> </avp>
+						<avp name="CG-Address" value="0x000159098107"> </avp>				
+						<avp name="3GPP-MS-TimeZone" value="4A"> </avp>
+						<avp name="3GPP-Charging-Id" value="2895941610"> </avp>
+						<avp name="PDN-Connection-ID" value="2895941610"> </avp>
+						<avp name="3GPP-PDP-Type" value="3"> </avp>
+						<avp name="PDP-Address" value="0x00010a03fc5e"> </avp>
+						<avp name="Dynamic-Address-Flag" value="0"> </avp>
+						<avp name="Serving-Node-Type" value="2"> </avp>
+						<avp name="3GPP-IMSI-MCC-MNC" value="MCCMNC"> </avp>
+						<avp name="3GPP-GGSN-MCC-MNC" value="MCCMNC"> </avp>
+						<avp name="3GPP-NSAPI" value="5"> </avp>
+						<avp name="3GPP-Selection-Mode" value="0"> </avp>
+						<avp name="3GPP-Charging-Characteristics" value="0800"> </avp>
+						<avp name="3GPP-SGSN-MCC-MNC" value="MCCMNC"> </avp>
+						<avp name="3GPP-User-Location-Info" value="0x82LOCATION_INFOa87105f26100744b01"> </avp>
+						<avp name="3GPP-RAT-Type" value="0x06"> </avp>
+						<!--<avp name="Start-Time" value="3866140800"> </avp> not in trace -->
+						<avp name="Called-Station-Id" value="Telenor"></avp>
+						<avp name="PDP-Context-Type" value="0"></avp>
+						<avp name="QoS-Information">
+							<avp name="QoS-Class-Identifier" value="5"></avp>
+							<avp name="Allocation-Retention-Priority">
+							     <avp name="Priority-Level" value="1"></avp>
+								 <avp name="Pre-emption-Capability" value="0"></avp>
+								 <avp name="Pre-emption-Vulnerability" value="0"></avp>
+							</avp>
+                            <avp name="APN-Aggregate-Max-Bitrate-UL" value="500000000"></avp>
+							<avp name="APN-Aggregate-Max-Bitrate-DL" value="4000000000"></avp>
+							<avp name="Bearer-Identifier" value="5"></avp>					
+						</avp>
+						<avp name="Charging-Characteristics-Selection-Mode" value="0"> </avp>
+					</avp>
+				</avp>
+			</command>
+		</send>
+        <receive channel="channel-1">
+            <command name="CCA">
+               <avp name="Result-Code" value="2001"></avp>
+            </command>
+            <action>
+              <check-value name="Result-Code" behaviour="error"></check-value>
+           </action>
+        </receive>
+
+
+		<!--UPDATE-->
+		<send channel="channel-1">
+		    <action>
+        			<restore-from-external field="0" entity="Session-Id"></restore-from-external>
+      		</action>
+			<command name="CCR">
+				<avp name="Session-Id" value="test_110003"> </avp>
+				<avp name="Origin-Host" value="ece.example.com"> </avp>
+				<avp name="Origin-Realm" value="zte.com"> </avp>
+				<avp name="Destination-Realm" value="www.oracle.com"> </avp>
+				<!-- Added -->
+				<avp name="Auth-Application-Id" value="4"> </avp>
+				<avp name="CC-Request-Type" value="0x00000002"> </avp>
+				<avp name="CC-Request-Number" value="1"> </avp>
+				<avp name="Service-Context-Id" value="6.32251@3gpp.org"> </avp>
+				<avp name="Destination-Host" value="DCCProxy519"> </avp>
+				<avp name="Subscription-Id">
+					<avp name="Subscription-Id-Type" value="0"> </avp>
+					<avp name="Subscription-Id-Data" value="MSISDN"> </avp>
+				</avp>
+				<avp name="Event-Timestamp" value="TIMESTAMP"> </avp>
+				<avp name="Origin-State-Id" value="315360000"> </avp>
+				<avp name="Multiple-Services-Indicator" value="1"> </avp>
+				
+                <avp name="Multiple-Services-Credit-Control">
+                        <avp name="Rating-Group" value="RATING_GROUP"></avp>
+                         <!--<avp name="Service-Identifier" value="1"></avp> -->
+                </avp>
+
+				<avp name="User-Equipment-Info">
+					<avp name="User-Equipment-Info-Type" value="0"></avp>
+					<avp name="User-Equipment-Info-Value" value="3557580810545701"></avp>		
+				</avp>
+
+
+
+				<avp name="Service-Information">
+					<avp name="PS-Information">
+						<avp name="SGSN-Address" value="0x000159098107"></avp>			
+						<avp name="GGSN-Address" value="0x000159098107"> </avp>
+						<avp name="CG-Address" value="0x000159098107"> </avp>				
+						<avp name="3GPP-MS-TimeZone" value="4A"> </avp>
+						<avp name="3GPP-Charging-Id" value="2895941610"> </avp>
+						<avp name="PDN-Connection-ID" value="2895941610"> </avp>
+						<avp name="3GPP-PDP-Type" value="3"> </avp>
+						<avp name="PDP-Address" value="0x00010a03fc5e"> </avp>
+						<avp name="Dynamic-Address-Flag" value="0"> </avp>
+						<avp name="Serving-Node-Type" value="2"> </avp>
+						<avp name="3GPP-IMSI-MCC-MNC" value="MCCMNC"> </avp>
+						<avp name="3GPP-GGSN-MCC-MNC" value="MCCMNC"> </avp>
+						<avp name="3GPP-NSAPI" value="5"> </avp>
+						<avp name="3GPP-Selection-Mode" value="0"> </avp>
+						<avp name="3GPP-Charging-Characteristics" value="0800"> </avp>
+						<avp name="3GPP-SGSN-MCC-MNC" value="MCCMNC"> </avp>
+						<avp name="3GPP-User-Location-Info" value="0x82LOCATION_INFOa87105f26100744b01"> </avp>
+						<avp name="3GPP-RAT-Type" value="0x06"> </avp>
+						<!--<avp name="Start-Time" value="3866140800"> </avp> not in trace -->
+						<avp name="Called-Station-Id" value="Telenor"></avp>
+						<avp name="PDP-Context-Type" value="0"></avp>
+						<avp name="QoS-Information">
+							<avp name="QoS-Class-Identifier" value="5"></avp>
+							<avp name="Allocation-Retention-Priority">
+							     <avp name="Priority-Level" value="1"></avp>
+								 <avp name="Pre-emption-Capability" value="0"></avp>
+								 <avp name="Pre-emption-Vulnerability" value="0"></avp>
+							</avp>
+                            <avp name="APN-Aggregate-Max-Bitrate-UL" value="500000000"></avp>
+							<avp name="APN-Aggregate-Max-Bitrate-DL" value="4000000000"></avp>
+							<avp name="Bearer-Identifier" value="5"></avp>					
+						</avp>
+						<avp name="Charging-Characteristics-Selection-Mode" value="0"> </avp>
+					</avp>
+				</avp>
+			</command>
+		</send>
+        <receive channel="channel-1">
+            <command name="CCA">
+               <avp name="Result-Code" value="2001"></avp>
+            </command>
+            <action>
+              <check-value name="Result-Code" behaviour="error"></check-value>
+           </action>
+        </receive>
+
+
+
+		<!--TERMINATE-->
+		<send channel="channel-1">
+		    <action>
+        			<restore-from-external field="0" entity="Session-Id"></restore-from-external>
+      		</action>
+			<command name="CCR">
+				<avp name="Session-Id" value="test_110003"> </avp>
+				<avp name="Origin-Host" value="ece.example.com"> </avp>
+				<avp name="Origin-Realm" value="zte.com"> </avp>
+				<avp name="Destination-Realm" value="www.oracle.com"> </avp>
+				<!-- Added -->
+				<avp name="Auth-Application-Id" value="4"> </avp>
+				<avp name="CC-Request-Type" value="0x00000003"> </avp>
+				<avp name="CC-Request-Number" value="1"> </avp>
+				<avp name="Service-Context-Id" value="6.32251@3gpp.org"> </avp>
+				<avp name="Destination-Host" value="DCCProxy519"> </avp>
+				<avp name="Subscription-Id">
+					<avp name="Subscription-Id-Type" value="0"> </avp>
+					<avp name="Subscription-Id-Data" value="MSISDN"> </avp>
+				</avp>
+				<avp name="Event-Timestamp" value="ENDTIME"> </avp>
+				<avp name="Origin-State-Id" value="315360000"> </avp>
+				<avp name="Multiple-Services-Indicator" value="1"> </avp>
+				
+                		<avp name="Multiple-Services-Credit-Control">
+        	        	        <avp name="Rating-Group" value="RATING_GROUP"></avp>
+	                        	 <!--<avp name="Service-Identifier" value="1"></avp> -->
+	                        	 <avp name="Used-Service-Unit">
+        	        	                 <avp name="CC-Time" value="60"></avp>
+        		                         <avp name="CC-Total-Octets" value="TOTAL_VOLUME"></avp>
+	                	                 <avp name="CC-Input-Octets" value="0"></avp>
+                                		 <avp name="CC-Output-Octets" value="1024"></avp>
+	                        	 </avp>
+        	       		</avp>
+				<avp name="Termination-Cause" value="1"></avp>
+
+				<avp name="User-Equipment-Info">
+					<avp name="User-Equipment-Info-Type" value="0"></avp>
+					<avp name="User-Equipment-Info-Value" value="3557580810545701"></avp>		
+				</avp>
+
+
+
+				<avp name="Service-Information">
+					<avp name="PS-Information">
+						<avp name="SGSN-Address" value="0x000159098107"></avp>			
+						<avp name="GGSN-Address" value="0x000159098107"> </avp>
+						<avp name="CG-Address" value="0x000159098107"> </avp>				
+						<avp name="3GPP-MS-TimeZone" value="4A"> </avp>
+						<avp name="3GPP-Charging-Id" value="2895941610"> </avp>
+						<avp name="PDN-Connection-ID" value="2895941610"> </avp>
+						<avp name="3GPP-PDP-Type" value="3"> </avp>
+						<avp name="PDP-Address" value="0x00010a03fc5e"> </avp>
+						<avp name="Dynamic-Address-Flag" value="0"> </avp>
+						<avp name="Serving-Node-Type" value="2"> </avp>
+						<avp name="3GPP-IMSI-MCC-MNC" value="MCCMNC"> </avp>
+						<avp name="3GPP-GGSN-MCC-MNC" value="MCCMNC"> </avp>
+						<avp name="3GPP-NSAPI" value="5"> </avp>
+						<avp name="3GPP-Selection-Mode" value="0"> </avp>
+						<avp name="3GPP-Charging-Characteristics" value="0800"> </avp>
+						<avp name="3GPP-SGSN-MCC-MNC" value="MCCMNC"> </avp>
+						<avp name="3GPP-User-Location-Info" value="0x82LOCATION_INFOa87105f26100744b01"> </avp>
+						<avp name="3GPP-RAT-Type" value="0x06"> </avp>
+						<!--<avp name="Start-Time" value="3866140800"> </avp> not in trace -->
+						<avp name="Called-Station-Id" value="Telenor"></avp>
+						<avp name="PDP-Context-Type" value="0"></avp>
+						<avp name="QoS-Information">
+							<avp name="QoS-Class-Identifier" value="5"></avp>
+							<avp name="Allocation-Retention-Priority">
+							     <avp name="Priority-Level" value="1"></avp>
+								 <avp name="Pre-emption-Capability" value="0"></avp>
+								 <avp name="Pre-emption-Vulnerability" value="0"></avp>
+							</avp>
+                            <avp name="APN-Aggregate-Max-Bitrate-UL" value="500000000"></avp>
+							<avp name="APN-Aggregate-Max-Bitrate-DL" value="4000000000"></avp>
+							<avp name="Bearer-Identifier" value="5"></avp>					
+						</avp>
+						<avp name="Charging-Characteristics-Selection-Mode" value="0"> </avp>
+					</avp>
+				</avp>
+			</command>
+		</send>
+        <receive channel="channel-1">
+            <command name="CCA">
+               <avp name="Result-Code" value="2001"></avp>
+            </command>
+            <action>
+              <check-value name="Result-Code" behaviour="error"></check-value>
+           </action>
+        </receive>
+
+	</traffic>
+</scenario>

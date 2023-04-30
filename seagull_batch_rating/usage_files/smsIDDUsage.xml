@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<scenario>
+    <init>
+        <send channel="channel-1">
+            <command name="CER">
+                <avp name="Origin-Host" value="ece.example.com"></avp>
+                <avp name="Origin-Realm" value="example.com"></avp>
+                <avp name="Host-IP-Address" value="0x00010a03fc5e"></avp>
+                <!-- IPV4 10.3.252.94-->
+                <avp name="Vendor-Id" value="11"></avp>
+                <avp name="Product-Name" value="HP Cx Interface"></avp>
+                <avp name="Origin-State-Id" value="1094807040"></avp>
+                <avp name="Supported-Vendor-Id" value="10415"></avp>
+                <avp name="Auth-Application-Id" value="4"></avp>
+                <avp name="Acct-Application-Id" value="0"></avp>
+                <avp name="Firmware-Revision" value="1"></avp>
+            </command>
+        </send>
+        <receive channel="channel-1">
+            <command name="CEA"></command>
+        </receive>
+    </init>
+    <!-- Traffic -->
+    <traffic>
+
+        <send channel="channel-1">
+        	<action>
+        		<restore-from-external field="0" entity="Session-Id"></restore-from-external>
+	        </action>
+            <command name="CCR">
+                <avp name="Session-Id" value="smsc.zte.com;1513376685;37093974;63512:0_test_0136"></avp>
+                <avp name="Origin-Host" value="smsc.zte.com"></avp>
+                <avp name="Origin-Realm" value="zte.com"></avp>
+                <avp name="Destination-Realm" value="www.oracle.com"></avp>
+                <avp name="Auth-Application-Id" value="4"></avp>
+                <avp name="Service-Context-Id" value="sms1@mbalance.com"></avp>
+                <avp name="CC-Request-Type" value="0x00000004"></avp>
+                <avp name="CC-Request-Number" value="0"></avp>
+                <avp name="Event-Timestamp" value="TIMESTAMP"></avp>
+                <avp name="Subscription-Id">
+                    <avp name="Subscription-Id-Type" value="0"></avp>
+                    <avp name="Subscription-Id-Data" value="MSISDN"></avp>
+                </avp>
+                <avp name="Requested-Action" value="0"></avp>
+                <avp name="Service-Information">
+                    <avp name="PS-Information">
+			    <!--<avp name="3GPP-User-Location-Info" value="0x003c1007510607ff"></avp>--> 
+                        <!--<avp name="Cell-Global-Identity" value="0x8105f261006fcd66"></avp>-->
+                        <!--<avp name="Cell-Global-Identity" value="0x05F261521E1850"></avp>-->
+                        <avp name="Cell-Global-Identity" value="0005F26104A76826"></avp>
+                        
+                    </avp>
+                    <avp name="MMS-Information">
+                        <avp name="Recipient-Address">
+                            <avp name="Address-Type" value="1"></avp>
+                            <avp name="Address-Data" value="DESTINATION"></avp>
+                        </avp>
+                        <avp name="Message-Type" value="1"></avp>
+                        <avp name="VASP-Id" value="60162999902"></avp>
+                    </avp>
+                </avp>
+            </command>
+    </send>
+         <receive channel="channel-1">
+            <command name="CCA">
+               <avp name="Result-Code" value="2001"></avp>
+            </command>
+            <action>
+              <check-value name="Result-Code" behaviour="error"></check-value>
+           </action>
+        </receive>
+    </traffic>
+</scenario>
+
