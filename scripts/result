@@ -1,0 +1,8477 @@
+---------------
+../BB65_Extra_2GB_x_12M_750120_pricing.xml
+   <name>DF-Domestic Usage</name>
+   <rumName>TOTAL_VOLUME</rumName>
+   <genericSelectorResult>HOME|DOM_ROAM</genericSelectorResult>
+   <balanceElementNumCode>458</balanceElementNumCode>
+---------------
+../IDD_Pass_120mins-7days-RM15_722031_pricing.xml
+   <name>DF-Add On Mins_(IDD)</name>
+   <rumName>Duration</rumName>
+   <zoneResult>IDD.*</zoneResult>
+   <balanceElementNumCode>458</balanceElementNumCode>
+      <eventField>AnyEvent.USAGE_CLASS</eventField>
+      <eventValue>VOICE_MO|VoLTE_MO|VoLTE_MF|VoWIFI_MO|VoWIFI_MF|Vo5G_MO|Vo5G_MF</eventValue>
+---------------
+../MONTHLY_4G_10GB_RM0_PROMO_723410_pricing.xml
+   <name>DF-Domestic Usage</name>
+   <rumName>TOTAL_VOLUME</rumName>
+   <genericSelectorResult>HOME|DOM_ROAM</genericSelectorResult>
+   <balanceElementNumCode>458</balanceElementNumCode>
+---------------
+../MPost_4G_Mobile_Internet_700391_pricing.xml
+   <name>DF-Domestic Usage</name>
+   <genericSelectorResult>HOME|DOM_ROAM</genericSelectorResult>
+   <balanceElementNumCode>458</balanceElementNumCode>
+---------------
+../MPost_4G_Mobile_Internet_700391_pricing.xml
+   <name>DF-Domestic Usage Weekend</name>
+   <rumName>TOTAL_VOLUME</rumName>
+   <genericSelectorResult>HOME|ROAM</genericSelectorResult>
+   <balanceElementNumCode>458</balanceElementNumCode>
+---------------
+../MPost_4G_Mobile_Internet_700391_pricing.xml
+   <name>DF-Domestic Usage 1AM to 7AM</name>
+   <rumName>TOTAL_VOLUME</rumName>
+   <genericSelectorResult>HOME|DOM_ROAM</genericSelectorResult>
+   <balanceElementNumCode>458</balanceElementNumCode>
+---------------
+../MPost_4G_Mobile_Internet_700391_pricing.xml
+   <name>DF-Domestic Usage 1PM to 7PM</name>
+   <rumName>TOTAL_VOLUME</rumName>
+   <genericSelectorResult>HOME|DOM_ROAM</genericSelectorResult>
+   <balanceElementNumCode>458</balanceElementNumCode>
+---------------
+../MPost_4G_Mobile_Internet_700391_pricing.xml
+   <name>DF-Domestic Usage 8AM to 6PM</name>
+   <rumName>TOTAL_VOLUME</rumName>
+   <genericSelectorResult>HOME|DOM_ROAM</genericSelectorResult>
+   <balanceElementNumCode>458</balanceElementNumCode>
+---------------
+../MPost_4G_Mobile_Internet_700391_pricing.xml
+   <name>DF-Domestic Usage 9am to 6pm</name>
+   <rumName>TOTAL_VOLUME</rumName>
+   <genericSelectorResult>HOME|DOM_ROAM</genericSelectorResult>
+   <balanceElementNumCode>458</balanceElementNumCode>
+---------------
+../MPost_4G_Mobile_Internet_700391_pricing.xml
+   <name>DF-SSQ-Youtube-Facebook-VideoOthers</name>
+   <rumName>TOTAL_VOLUME</rumName>
+   <genericSelectorResult>Video-Youtube|Social-Facebook|Video-Others</genericSelectorResult>
+   <balanceElementNumCode>458</balanceElementNumCode>
+---------------
+../MPost_4G_Mobile_Internet_700391_pricing.xml
+   <name>DF-SSQ-Facebook-SocialOthers</name>
+   <rumName>TOTAL_VOLUME</rumName>
+   <genericSelectorResult>Social-Facebook|Social-Others</genericSelectorResult>
+   <balanceElementNumCode>458</balanceElementNumCode>
+---------------
+../MPost_Digi_Postpaid_120_2021_610142_pricing.xml
+   <name>DF_CPA_PRM_STAFF300_MAR2016</name>
+   <rumName>PreCharge</rumName>
+   <balanceElementNumCode>458</balanceElementNumCode>
+      <eventField>AnyEvent.USAGE_CLASS</eventField>
+      <eventValue>PRM_STAFF300_MAR2016</eventValue>
+---------------
+../MPost_Digi_Postpaid_120_2021_610142_pricing.xml
+   <name>DF_CPA_Credits</name>
+   <rumName>PreCharge</rumName>
+   <genericSelectorResult>CPA01_Talktime|CPA02_Insurance|CPA03_QTU|CPA04_IVR|CPA05_BBerryPrepaid|CPA06_GroupSMS|CPA07_VAS|CPA08_InsNonGST|CPA09_VASNonGST</genericSelectorResult>
+   <balanceElementNumCode>458</balanceElementNumCode>
+---------------
+../MPost_Digi_Postpaid_120_2021_610142_pricing.xml
+   <name>DF_CPA_Free_Credit_for_MyDigi_Rewards:</name>
+   <rumName>PreCharge</rumName>
+   <balanceElementNumCode>458</balanceElementNumCode>
+      <eventField>AnyEvent.USAGE_CLASS</eventField>
+      <eventValue>DG_MYDIGI_SUBS</eventValue>
+---------------
+../MPost_Digi_Postpaid_120_2021_610142_pricing.xml
+   <name>DF_CPA_Free_MyDigi_Rewards_Credit</name>
+   <rumName>PreCharge</rumName>
+   <balanceElementNumCode>458</balanceElementNumCode>
+      <eventField>AnyEvent.USAGE_CLASS</eventField>
+      <eventValue>DG_MYDIGI_SUBS</eventValue>
+---------------
+../MPost_Digi_Postpaid_120_2021_610142_pricing.xml
+   <name>DF_CPA_Free_Credit_for_MyDigi_Rewards</name>
+   <rumName>PreCharge</rumName>
+   <balanceElementNumCode>458</balanceElementNumCode>
+      <eventField>AnyEvent.USAGE_CLASS</eventField>
+      <eventValue>DG_MYDIGI_SUBS</eventValue>
+---------------
+../MPost_Digi_Postpaid_120_2021_610142_pricing.xml
+   <name>DF-CPA-02-08</name>
+   <rumName>PreCharge</rumName>
+   <genericSelectorResult>CPA02_Insurance|CPA08_InsNonGST</genericSelectorResult>
+   <balanceElementNumCode>458</balanceElementNumCode>
+---------------
+../MPost_Free_5GB_Monthlyx12_months_RP_750216_pricing.xml
+   <name>DF-Domestic Usage</name>
+   <genericSelectorResult>HOME|DOM_ROAM</genericSelectorResult>
+   <balanceElementNumCode>458</balanceElementNumCode>
+---------------
+../MPost_Free_5GBx12_months_Promo_750130_pricing.xml
+   <name>DF-Domestic Usage</name>
+   <genericSelectorResult>HOME|DOM_ROAM</genericSelectorResult>
+   <balanceElementNumCode>458</balanceElementNumCode>
+---------------
+../MPost_Go_Digi_168_DS_610097_pricing.xml
+   <name>DF_CPA_PRM_STAFF300_MAR2016</name>
+   <rumName>PreCharge</rumName>
+   <balanceElementNumCode>458</balanceElementNumCode>
+      <eventField>AnyEvent.USAGE_CLASS</eventField>
+      <eventValue>PRM_STAFF300_MAR2016</eventValue>
+---------------
+../MPost_Go_Digi_168_DS_610097_pricing.xml
+   <name>DF_CPA_Credits</name>
+   <rumName>PreCharge</rumName>
+   <genericSelectorResult>CPA01_Talktime|CPA02_Insurance|CPA03_QTU|CPA04_IVR|CPA05_BBerryPrepaid|CPA06_GroupSMS|CPA07_VAS|CPA08_InsNonGST|CPA09_VASNonGST</genericSelectorResult>
+   <balanceElementNumCode>458</balanceElementNumCode>
+---------------
+../MPost_Go_Digi_168_DS_610097_pricing.xml
+   <name>DF_CPA_Free_Credit_for_MyDigi_Rewards:</name>
+   <rumName>PreCharge</rumName>
+   <balanceElementNumCode>458</balanceElementNumCode>
+      <eventField>AnyEvent.USAGE_CLASS</eventField>
+      <eventValue>DG_MYDIGI_SUBS</eventValue>
+---------------
+../MPost_Go_Digi_168_DS_610097_pricing.xml
+   <name>DF_CPA_Free_MyDigi_Rewards_Credit</name>
+   <rumName>PreCharge</rumName>
+   <balanceElementNumCode>458</balanceElementNumCode>
+      <eventField>AnyEvent.USAGE_CLASS</eventField>
+      <eventValue>DG_MYDIGI_SUBS</eventValue>
+---------------
+../MPost_Go_Digi_168_DS_610097_pricing.xml
+   <name>DF_CPA_Free_Credit_for_MyDigi_Rewards</name>
+   <rumName>PreCharge</rumName>
+   <balanceElementNumCode>458</balanceElementNumCode>
+      <eventField>AnyEvent.USAGE_CLASS</eventField>
+      <eventValue>DG_MYDIGI_SUBS</eventValue>
+---------------
+../MPost_Go_Digi_168_DS_610097_pricing.xml
+   <name>DF-CPA-02-08</name>
+   <rumName>PreCharge</rumName>
+   <genericSelectorResult>CPA02_Insurance|CPA08_InsNonGST</genericSelectorResult>
+   <balanceElementNumCode>458</balanceElementNumCode>
+---------------
+../MPost_MI_Go_Digi_Unlimited_750058_pricing.xml
+   <name>DF-Domestic Usage</name>
+   <genericSelectorResult>HOME|DOM_ROAM</genericSelectorResult>
+   <balanceElementNumCode>458</balanceElementNumCode>
+---------------
+../MPost_Monthly-Unlimited_Singapore-FREE_720176_pricing.xml
+   <name>DF-VOICE-IDD-SINGAPORE</name>
+   <rumName>Duration</rumName>
+   <zoneResult>IDD_SINGAPORE.*</zoneResult>
+   <balanceElementNumCode>458</balanceElementNumCode>
+      <eventField>AnyEvent.SERVICE_CODE</eventField>
+      <eventValue>HOME|DOM_ROAM</eventValue>
+---------------
+../MPre_Beyond_400001_pricing.xml
+   <name>DF_All_Charges_Accumulator_OTC_RC</name>
+   <rumName>Occurrence</rumName>
+   <balanceElementNumCode>458</balanceElementNumCode>
+---------------
+../MPre_Beyond_400001_pricing.xml
+   <name>DF_All_Charges_Accumulator_VOICEVIDEO</name>
+   <rumName>Duration</rumName>
+   <zoneResult>.*NET</zoneResult>
+   <balanceElementNumCode>458</balanceElementNumCode>
+      <eventField>AnyEvent.USAGE_CLASS</eventField>
+      <eventValue>VOICE_MO|VoLTE_MO|VoLTE_MF|VoWIFI_MO|VoWIFI_MF|Vo5G_MO|Vo5G_MF|VIDEO_MO</eventValue>
+      <eventField>AnyEvent.USAGE_TYPE</eventField>
+      <eventValue>ONNET|OFFNET</eventValue>
+---------------
+../MPre_Beyond_400001_pricing.xml
+   <name>DF_All_Charges_Accumulator_SMS</name>
+   <rumName>Occurrence</rumName>
+   <balanceElementNumCode>458</balanceElementNumCode>
+---------------
+../MPre_Beyond_400001_pricing.xml
+   <name>DF_All_Charges_Accumulator_MMS</name>
+   <rumName>Occurrence</rumName>
+   <balanceElementNumCode>458</balanceElementNumCode>
+---------------
+../MPre_Beyond_400001_pricing.xml
+   <name>DF_All_Charges_Accumulator_Content</name>
+   <rumName>PreCharge</rumName>
+   <balanceElementNumCode>458</balanceElementNumCode>
+---------------
+../MPre_Beyond_400001_pricing.xml
+   <name>DF_All_Charges_Accumulator_Data</name>
+   <rumName>TOTAL_VOLUME</rumName>
+   <rumName>Conditional</rumName>
+   <balanceElementNumCode>458</balanceElementNumCode>
+
+
+flag =  0
+
+
+
+
+
+
+
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+flag =  1
+flag =  1
+flag =  1
+flag =  1
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+flag =  1
+flag =  1
+flag =  1
+
+flag =  0
+
+
+flag =  0
+
+
+flag =  0
+flag =  1
+flag =  1
+flag =  1
+flag =  1
+flag =  1
+
+
+
+
+
+flag =  0
+
+flag =  0
+
+
+
+
+flag =  0
+flag =  1
+flag =  1
+flag =  1
+flag =  1
+flag =  1
+
+
+
+
+
+
+flag =  0
+flag =  1
+flag =  1
+flag =  1
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+flag =  1
+flag =  1
+flag =  1
+
+
+
+
+
+
+
+
+flag =  0
+flag =  1
+flag =  1
+flag =  1
+flag =  1
+flag =  1
+flag =  1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+flag =  0
+flag =  1
+flag =  1
+flag =  1
+flag =  1
+flag =  1
+
+
+
+
+
+flag =  0
+flag =  1
+flag =  1
+flag =  1
+flag =  1
+flag =  1
+flag =  1
+flag =  1
+
+
+flag =  0
+flag =  1
+flag =  1
+flag =  1
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+flag =  1
+flag =  1
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+flag =  1
+flag =  1
+flag =  1
+flag =  1
+
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+
+flag =  0
+
+
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+flag =  1
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+flag =  1
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+
+flag =  0
+flag =  1
+flag =  1
+
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+
+
+flag =  0
+
+flag =  0
+flag =  1
+flag =  1
+
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+
+
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+flag =  1
+
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+flag =  1
+
+
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+
+flag =  0
+flag =  1
+
+
+flag =  0
+flag =  1
+flag =  1
+
+
+flag =  0
+flag =  1
+flag =  1
+
+
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+flag =  1
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+flag =  1
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+
+flag =  0
+
+flag =  0
+
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+
+flag =  0
+flag =  1
+
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+
+flag =  0
+flag =  1
+
+flag =  0
+
+
+flag =  0
+flag =  1
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+
+
+
+
+flag =  0
+
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+
+
+
+
+flag =  0
+
+
+
+
+
+
+
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+
+
+
+
+
+
+
+flag =  0
+
+
+
+
+
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+
+flag =  0
+
+
+
+flag =  0
+
+
+
+
+
+
+
+
+
+
+
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+flag =  0
+
+
+flag =  0
+
+
+
+
+
+
+flag =  0
+
+flag =  0
+
+
+flag =  0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+flag =  0
+
+
+
+
+
+
+
+
+flag =  0
+
+flag =  0
+
+flag =  0
+flag =  1
+flag =  1
+flag =  1
+flag =  1
+flag =  1
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+flag =  1
+flag =  1
+flag =  1
+
+flag =  0
+
+
+flag =  0
+
+
+flag =  0
+flag =  1
+flag =  1
+flag =  1
+flag =  1
+flag =  1
+
+
+
+
+
+flag =  0
+
+flag =  0
+
+
+
+
+flag =  0
+flag =  1
+flag =  1
+flag =  1
+flag =  1
+flag =  1
+
+
+
+
+
+
+flag =  0
+flag =  1
+flag =  1
+flag =  1
+flag =  1
+flag =  1
+
+flag =  0
+flag =  1
+flag =  1
+flag =  1
+flag =  1
+flag =  1
+
+
+
+
+
+flag =  0,
+
+
+
+
+
+
+
+flag =  0,
+flag =  0,
+flag =  0,flag =  1,flag =  1,flag =  1,flag =  1,flag =  1,flag =  1,flag =  1,
+flag =  0,flag =  1,flag =  1,flag =  1,flag =  1,flag =  1,
+flag =  0,
+
+flag =  0,
+
+flag =  0,flag =  1,flag =  1,flag =  1,flag =  1,flag =  1,
+
+
+
+
+flag =  0,
+flag =  0,
+
+
+
+flag =  0,flag =  1,flag =  1,flag =  1,flag =  1,flag =  1,
+
+
+
+
+
+flag =  0,flag =  1,flag =  1,flag =  1,flag =  1,flag =  1,
+flag =  0,flag =  1,flag =  1,flag =  1,flag =  1,flag =  1,
+
+
+
+
+
+
+
+flag =  0,flag =  1,flag =  1,flag =  1,flag =  1,flag =  1,flag =  1,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+flag =  0,flag =  1,flag =  1,flag =  1,flag =  1,flag =  1,
+
+
+
+
+flag =  0,flag =  1,flag =  1,flag =  1,flag =  1,flag =  1,flag =  1,flag =  1,
+
+flag =  0,flag =  1,flag =  1,flag =  1,flag =  1,flag =  1,
+flag =  0,flag =  1,flag =  1,flag =  1,flag =  1,flag =  1,flag =  1,
+flag =  0,flag =  1,flag =  1,flag =  1,flag =  1,flag =  1,flag =  1,
+
+flag =  0,
+flag =  0,
+flag =  0,
+flag =  0,
+flag =  0,
+flag =  0,
+flag =  0,
+flag =  0,
+flag =  0,
+flag =  0,
+flag =  0,
+flag =  0,
+flag =  0,
+flag =  0,
+
+
+
+
+
+
+
+flag =  0,
+flag =  0,
+flag =  0,flag =  1,flag =  1,flag =  1,flag =  1,flag =  1,flag =  1,flag =  1,
+flag =  0,flag =  1,flag =  1,flag =  1,flag =  1,flag =  1,
+flag =  0,
+
+flag =  0,
+
+flag =  0,flag =  1,flag =  1,flag =  1,flag =  1,flag =  1,
+
+
+
+
+flag =  0,
+flag =  0,
+
+
+
+flag =  0,flag =  1,flag =  1,flag =  1,flag =  1,flag =  1,
+
+
+
+
+
+flag =  0,flag =  1,flag =  1,flag =  1,flag =  1,flag =  1,
+flag =  0,flag =  1,flag =  1,flag =  1,flag =  1,flag =  1,
+
+
+
+
+
+
+
+flag =  0,flag =  1,flag =  1,flag =  1,flag =  1,flag =  1,flag =  1,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+flag =  0,flag =  1,flag =  1,flag =  1,flag =  1,flag =  1,
+
+
+
+
+flag =  0,flag =  1,flag =  1,flag =  1,flag =  1,flag =  1,flag =  1,flag =  1,
+
+flag =  0,flag =  1,flag =  1,flag =  1,flag =  1,flag =  1,
+flag =  0,flag =  1,flag =  1,flag =  1,flag =  1,flag =  1,flag =  1,
+flag =  0,flag =  1,flag =  1,flag =  1,flag =  1,flag =  1,flag =  1,
+
+flag =  0,
+flag =  0,
+flag =  0,
+flag =  0,
+flag =  0,
+flag =  0,
+flag =  0,
+flag =  0,
+flag =  0,
+flag =  0,
+flag =  0,
+flag =  0,
+flag =  0,
+flag =  0,
+flag =  0,
+flag =  0,
+flag =  0,
+flag =  0,
+flag =  0,
+flag =  0,
+flag =  0,
+flag =  0,
+flag =  0,
+flag =  0,
+flag =  0,
+flag = ,0
+
+
+
+
+
+
+
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+flag = ,0
+
+
+flag = ,0
+
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+
+
+
+
+flag = ,0
+
+flag = ,0
+
+
+
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+
+
+
+
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+
+
+
+
+
+
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+
+
+
+flag = ,0
+
+
+
+
+
+
+
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+flag = ,0
+
+
+flag = ,0
+
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+
+
+
+
+flag = ,0
+
+flag = ,0
+
+
+
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+
+
+
+
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+
+
+
+
+
+
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+
+
+
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+
+
+
+
+
+
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+flag = ,0
+
+
+flag = ,0
+
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+
+
+
+
+flag = ,0
+
+flag = ,0
+
+
+
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+
+
+
+
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+
+
+
+
+
+
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+
+
+
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+
+
+
+
+
+
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+flag = ,0
+
+
+flag = ,0
+
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+
+
+
+
+flag = ,0
+
+flag = ,0
+
+
+
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+
+
+
+
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+
+
+
+
+
+
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+
+
+
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+
+flag = ,0
+
+
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+
+
+
+
+
+
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+flag = ,0
+
+
+flag = ,0
+
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+
+
+
+
+flag = ,0
+
+flag = ,0
+
+
+
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+
+
+
+
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+
+
+
+
+
+
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+
+
+
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+
+flag = ,0
+
+
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+
+
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+
+flag = ,0
+
+flag = ,0
+
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+
+flag = ,0
+flag = ,1
+
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+
+flag = ,0
+flag = ,1
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+
+
+
+
+flag = ,0
+
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+
+
+
+
+flag = ,0
+
+
+
+
+
+
+
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+
+
+
+
+
+
+
+flag = ,0
+
+
+
+
+
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+
+flag = ,0
+
+
+
+flag = ,0
+
+
+
+
+
+
+
+
+
+
+
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+flag = ,0
+
+
+flag = ,0
+
+
+
+
+
+
+flag = ,0
+
+flag = ,0
+
+
+flag = ,0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
